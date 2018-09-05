@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sanic = "*"
+raven = "*"
+sanic-sentry = "*"
+blinker = "*"
+pytest-sanic = "*"
+sanic-prometheus = "==0.1.4"
+apispec = "*"
+marshmallow-mongoengine = "*"
+marshmallow = "*"
+pytest-cov = "*"
+
+[dev-packages]
+pre-commit = "*"
+
+[requires]
+python_version = "3.6"
