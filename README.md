@@ -8,7 +8,7 @@ This project (powered by Sanic) provides a boilerplate code to develop your ligh
 * Install pip using either apt-get or brew
 * Install virtualenv
 * To install all the dependencies of the app run `pipenv install`. Note that you don't need to create a separate virtual environment for this project as `pipenv` handles all that.
-* To run the server use `pipenv run python hello_world.py`
+* To run the server use `pipenv run python runserver.py`
 
 ## Running Scripts
 You may want to run scripts/commands in the created virtual environment. There are two ways to do it:
