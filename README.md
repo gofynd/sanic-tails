@@ -15,6 +15,9 @@ You may want to run scripts/commands in the created virtual environment. There a
 * Use the prefix `pipenv run` before your command. eg. `pipenv run python`
 * Activate shell using `pipenv shell`. Once activated all your commands will run in project's virtual environment. To deactivate this virtual environment run `exit`.
 
+## Getting Started
+See [Contribution Guide](https://github.com/gofynd/sanic-tails/blob/master/CONTRIBUTING.md) for basic steps involved in developing an API.
+
 ## TODO
 - [x] Initial setup with Sanic
 - [x] Configure sentry
@@ -22,7 +25,7 @@ You may want to run scripts/commands in the created virtual environment. There a
 - [x] Configure db connection(Mongo)
 - [x] Prometheus metrics setup
 - [x] Select one testing library (eg. pytest, unittest) and configure
-- [x] Setup TravisCI for this repo
+- [ ] Setup TravisCI for this repo
 - [x] Expolore tools to facilitate api development
     - [x] Swagger integration (or something functionally equivalent)
 - [x] Add tool to calculate the Coverage
