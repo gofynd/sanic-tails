@@ -7,8 +7,8 @@ This project (powered by Sanic) provides a boilerplate code to develop your ligh
 * Install python 3.6.5
 * Install pip using either apt-get or brew
 * Install virtualenv
-* Install pipenv
-* * https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv
+* Install pipenv, if not present
+  * https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv
   * Ubuntu installation Issue:
     * https://github.com/pypa/pipenv/issues/2122
     * https://github.com/pypa/pipenv/issues/2122#issuecomment-386207878
